@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Khushboo</title>
+<meta name="description" content="For Khushboo." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- film grain overlay, sits above everything -->
+<div class="grain" aria-hidden="true"></div>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="hero">
+    <div class="light-leak" aria-hidden="true"></div>
+
+    <div class="frame" aria-hidden="true">
+      <span class="corner corner--tl"></span>
+      <span class="corner corner--tr"></span>
+      <span class="corner corner--bl"></span>
+      <span class="corner corner--br"></span>
+    </div>
+
+    <div class="hero__content">
+      <p class="eyebrow reveal" data-reveal>a letter, for one girl only</p>
+      <h1 class="hero__title">
+        <span class="reveal" data-reveal>Happy Birthday,</span>
+        <span class="reveal reveal--delay-1" data-reveal>Khushboo</span>
+      </h1>
+      <p class="hero__sub reveal reveal--delay-2" data-reveal>
+        for the girl who makes ordinary days feel like a movie.
+      </p>
+    </div>
+
+    <div class="scrollcue" aria-hidden="true">
+      <span class="scrollcue__line"></span>
+      <span class="scrollcue__label">scroll</span>
+    </div>
+  </section>
+
+  <!-- ============ LETTER ============ -->
+  <section class="letter" id="letter">
+    <div class="letter__frame">
+      <span class="corner corner--tl"></span>
+      <span class="corner corner--tr"></span>
+      <span class="corner corner--bl"></span>
+      <span class="corner corner--br"></span>
+
+      <span class="monogram" aria-hidden="true">K</span>
+
+      <div class="letter__body">
+        <p class="reveal-line" data-reveal>Happy birthday to the girl who stole my heart and somehow makes ordinary days feel like a movie</p>
+        <p class="reveal-line" data-reveal>Happy birthday to my favorite notification, the sweetest soul, my lil rizzler, and the girl with the prettiest smile.</p>
+        <p class="reveal-line" data-reveal>Today is all about celebrating you, eat the biggest slice of cake, make a big wish, and know that I am always in your corner. I love you to pieces!</p>
+        <p class="reveal-line reveal-line--signoff" data-reveal>Happy birthday Khushboo!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY ============ -->
+  <section class="gallery" id="gallery">
+    <p class="eyebrow eyebrow--center reveal" data-reveal>a few frames, worth keeping</p>
+
+    <div class="gallery__grid">
+      <figure class="gallery__item gallery__item--tall reveal" data-reveal>
+        <span class="corner corner--tl"></span>
+        <span class="corner corner--br"></span>
+        <img src="images/photo-4.jpg" alt="Khushboo outdoors" loading="lazy" />
+      </figure>
+
+      <figure class="gallery__item gallery__item--s1 reveal reveal--delay-1" data-reveal>
+        <span class="corner corner--tl"></span>
+        <span class="corner corner--br"></span>
+        <img src="images/photo-3.jpg" alt="Khushboo" loading="lazy" />
+      </figure>
+
+      <figure class="gallery__item gallery__item--s2 reveal reveal--delay-1" data-reveal>
+        <span class="corner corner--tl"></span>
+        <span class="corner corner--br"></span>
+        <img src="images/photo-1.jpg" alt="Khushboo smiling" loading="lazy" />
+      </figure>
+
+      <figure class="gallery__item gallery__item--wide reveal reveal--delay-2" data-reveal>
+        <span class="corner corner--tl"></span>
+        <span class="corner corner--br"></span>
+        <img src="images/photo-2.jpg" alt="Khushboo" loading="lazy" />
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ CLOSING ============ -->
+  <section class="closing" id="closing">
+    <div class="light-leak light-leak--soft" aria-hidden="true"></div>
+    <p class="closing__line reveal" data-reveal>always in your corner.</p>
+  </section>
+
+  <footer class="footer">
+    <span class="footer__rule" aria-hidden="true"></span>
+    <span class="footer__mark">K</span>
+  </footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
